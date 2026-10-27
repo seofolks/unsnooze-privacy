@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unsnooze — Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Unsnooze alarm app (com.unsnooze.app). Offline, no accounts, no analytics.">
+</head>
+<body>
+<style>
+  :root {
+    --bg: #fbfaf8;
+    --surface: #ffffff;
+    --ink: #1c1a17;
+    --ink-soft: #55504a;
+    --ink-faint: #8a847c;
+    --rule: #e8e4dd;
+    --accent: #e4680f;
+    --accent-soft: #fdf1e7;
+    --maxw: 44rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141210;
+      --surface: #1c1916;
+      --ink: #f2efe9;
+      --ink-soft: #b8b2a8;
+      --ink-faint: #837d73;
+      --rule: #2c2824;
+      --accent: #ff8a3d;
+      --accent-soft: #2a1d12;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141210; --surface: #1c1916; --ink: #f2efe9; --ink-soft: #b8b2a8;
+    --ink-faint: #837d73; --rule: #2c2824; --accent: #ff8a3d; --accent-soft: #2a1d12;
+  }
+  :root[data-theme="light"] {
+    --bg: #fbfaf8; --surface: #ffffff; --ink: #1c1a17; --ink-soft: #55504a;
+    --ink-faint: #8a847c; --rule: #e8e4dd; --accent: #e4680f; --accent-soft: #fdf1e7;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: clamp(2rem, 5vw, 4.5rem) 1.5rem 5rem; }
+
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 2rem; margin-bottom: 2.5rem; }
+  .brand {
+    display: inline-flex; align-items: center; gap: .6rem;
+    font-weight: 700; letter-spacing: -.01em; font-size: 1.05rem; color: var(--ink);
+  }
+  .dot {
+    width: 1.5rem; height: 1.5rem; border-radius: 50%;
+    background: radial-gradient(circle at 36% 32%, #ffd9a8, #ee7b2d 58%, #b8541a);
+    box-shadow: 0 0 0 1px rgba(0,0,0,.04);
+  }
+  h1 {
+    font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.1; letter-spacing: -.02em;
+    margin: 1.4rem 0 .5rem; text-wrap: balance;
+  }
+  .sub { color: var(--ink-faint); font-size: .95rem; margin: 0; }
+  .eyebrow {
+    text-transform: uppercase; letter-spacing: .12em; font-size: .72rem; font-weight: 600;
+    color: var(--accent); margin: 0;
+  }
+
+  .lede {
+    font-size: 1.12rem; color: var(--ink-soft); margin: 0 0 2.5rem;
+    padding: 1.1rem 1.25rem; background: var(--accent-soft); border-radius: .6rem;
+    border: 1px solid var(--rule);
+  }
+  .lede strong { color: var(--ink); font-weight: 650; }
+
+  section { margin: 2.4rem 0; }
+  h2 {
+    font-size: 1.22rem; letter-spacing: -.01em; margin: 0 0 .4rem;
+    display: flex; align-items: baseline; gap: .6rem;
+  }
+  h2 .n {
+    font-size: .8rem; font-variant-numeric: tabular-nums; color: var(--accent);
+    font-weight: 700; min-width: 1.4rem;
+  }
+  h3 { font-size: 1rem; margin: 1.3rem 0 .3rem; color: var(--ink); }
+  p { margin: .5rem 0; color: var(--ink-soft); }
+  p.body-ink { color: var(--ink); }
+  a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  ul { margin: .6rem 0; padding-left: 0; list-style: none; }
+  li { position: relative; padding-left: 1.4rem; margin: .5rem 0; color: var(--ink-soft); }
+  li::before {
+    content: ""; position: absolute; left: .15rem; top: .62rem;
+    width: .4rem; height: .4rem; border-radius: 50%; background: var(--accent);
+  }
+  li strong { color: var(--ink); font-weight: 600; }
+
+  .pill {
+    display: inline-block; font-size: .78rem; font-weight: 600; letter-spacing: .02em;
+    color: var(--accent); background: var(--accent-soft); border: 1px solid var(--rule);
+    padding: .15rem .55rem; border-radius: 999px; margin-left: .4rem; vertical-align: middle;
+  }
+
+  footer {
+    margin-top: 3.5rem; padding-top: 1.6rem; border-top: 1px solid var(--rule);
+    color: var(--ink-faint); font-size: .9rem;
+  }
+  footer a { color: var(--ink-soft); }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="brand"><span class="dot" aria-hidden="true"></span> Unsnooze</span>
+    <p class="eyebrow" style="margin-top:1.6rem;">Privacy Policy</p>
+    <h1>Your mornings stay on your phone.</h1>
+    <p class="sub">Last updated 27 October 2026 · Applies to the Unsnooze app (package <code>com.unsnooze.app</code>)</p>
+  </header>
+
+  <p class="lede">Unsnooze is an <strong>offline alarm app</strong>. It has no accounts, no sign-up, and no analytics. Your alarms, streaks, and settings never leave your device. The only information that is ever transmitted is what Google Play and our payment provider need to process an optional subscription.</p>
+
+  <section>
+    <h2><span class="n">1</span> Who we are</h2>
+    <p>Unsnooze is published by Rubikverse. If you have any question about this policy or your privacy, email <a href="mailto:rubikverse.mail@gmail.com">rubikverse.mail@gmail.com</a>.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">2</span> Information we do <em>not</em> collect</h2>
+    <p class="body-ink">The core app works entirely on your device. We do not operate any server, and we do not collect, store, or transmit:</p>
+    <ul>
+      <li>Your name, email, phone number, or any account — there is no login.</li>
+      <li>Your alarms, wake times, streaks, statistics, or app settings — these are stored only in local storage on your device.</li>
+      <li>Camera images or video. Camera missions (push-ups, sit-ups, item search) are analysed <strong>on-device</strong> using on-device machine learning; frames are processed in memory in real time and are never saved, uploaded, or shared.</li>
+      <li>Microphone audio — the app does not request microphone access.</li>
+      <li>Location, contacts, or your activity in other apps.</li>
+      <li>Advertising identifiers — Unsnooze contains no ads and no third-party analytics or tracking.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="n">3</span> Subscriptions <span class="pill">the only data that leaves your device</span></h2>
+    <p>Unsnooze offers an optional paid subscription (Unsnooze Pro). If you start a purchase, the transaction is handled by <strong>Google Play Billing</strong> and by our subscription-management provider, <strong>RevenueCat</strong>. You never enter payment details into Unsnooze — Google Play handles payment.</p>
+    <p>To manage your entitlement and restore purchases, these services may process:</p>
+    <ul>
+      <li>A randomly generated, anonymous app-user ID (not linked to your name or email).</li>
+      <li>Purchase and subscription status (which plan, whether it is active, renewal and trial dates).</li>
+      <li>Basic device and app information (such as device model, operating-system version, and country) used to deliver and protect the purchase.</li>
+    </ul>
+    <p>This is used only to provide the subscription, restore it across reinstalls, and prevent fraud. We do not sell your data and do not use it for advertising. Their handling of this data is governed by their own policies: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a>.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">4</span> Device permissions</h2>
+    <p>Unsnooze requests only the permissions it needs to ring reliably and run missions:</p>
+    <ul>
+      <li><strong>Alarms &amp; notifications</strong> (exact alarm, full-screen intent, notifications, wake lock, foreground service, run at startup) — so the alarm fires at the set time, shows full-screen, and survives a reboot.</li>
+      <li><strong>Camera</strong> — only while you run a camera-based mission; used on-device as described above.</li>
+      <li><strong>Vibration</strong> and <strong>motion sensors</strong> (accelerometer) — for the vibration feedback and the shake mission.</li>
+      <li><strong>Ignore battery optimizations</strong> (optional) — so aggressive power-saving does not stop the alarm from ringing.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="n">5</span> Children</h2>
+    <p>Unsnooze is a general-audience utility and is not directed at children under 13. We do not knowingly collect any personal information from children.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">6</span> Data retention &amp; deletion</h2>
+    <p>Because app data lives only on your device, uninstalling Unsnooze removes it. To cancel or review a subscription, use Google Play &rarr; Subscriptions. To request deletion of any subscription record held by our provider, email us at the address below.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">7</span> Changes to this policy</h2>
+    <p>If we change how the app handles data, we will update this page and revise the date above. Material changes will be reflected before the new behaviour ships.</p>
+  </section>
+
+  <footer>
+    <p>Questions or data requests: <a href="mailto:rubikverse.mail@gmail.com">rubikverse.mail@gmail.com</a><br>
+    Unsnooze · Rubikverse · © 2026</p>
+  </footer>
+</div>
+</body>
+</html>
